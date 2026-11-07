@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284C7"/>
+      <stop offset="100%" stop-color="#0369A1"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="url(#blueGrad)"/>
+  <!-- Dente estilizado estilizado branco com brilho sutil -->
+  <path d="M32 10C24 10 18 15 18 24C18 31 22 36 24 43C25.5 48 26.5 54 29 54C31 54 31.5 49 32 45C32.5 49 33 54 35 54C37.5 54 38.5 48 40 43C42 36 46 31 46 24C46 15 40 10 32 10Z" fill="#FFFFFF"/>
+  <circle cx="25" cy="22" r="3" fill="#0284C7" opacity="0.15"/>
+  <!-- Estrela de brilho dental -->
+  <path d="M42 16L43.5 20.5L48 22L43.5 23.5L42 28L40.5 23.5L36 22L40.5 20.5Z" fill="#38BDF8"/>
+</svg>
