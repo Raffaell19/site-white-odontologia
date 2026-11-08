@@ -1361,10 +1361,22 @@ button, input, select, textarea {
   gap: 1.25rem;
 }
 
+.footer-brand-link {
+  display: inline-block;
+  width: fit-content;
+  transition: opacity var(--transition-fast);
+}
+
+.footer-brand-link:hover {
+  opacity: 0.9;
+}
+
 .footer-logo {
-  height: 46px;
+  height: 60px;
   width: auto;
-  filter: brightness(0) invert(1);
+  max-width: 190px;
+  object-fit: contain;
+  display: block;
 }
 
 .footer-epao {
